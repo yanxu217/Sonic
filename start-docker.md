@@ -1,0 +1,1 @@
+docker run -it --gpus="all" -v .\checkpoints\:/Sonic/checkpoints -p 18081:8081  sonic:latest
